@@ -149,6 +149,7 @@ describe('Board 요구사항 테스트', () => {
         const noticeBoard = new Board('공지사항');
         mySite.addBoard(noticeBoard);
 
+    
         const article = new Article({
             subject: '첫번째 공지사항입니다.',
             content: '테스트 코드는 수정하면 안됩니다.',
